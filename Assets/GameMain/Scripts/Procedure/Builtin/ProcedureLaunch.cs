@@ -119,7 +119,6 @@ namespace FlyBrid
 
         private void InitQualitySettings()
         {
-            Log.Debug("11");
             QualityLevelType defaultQuality = GameEntry.BuiltinData.DeviceModelConfig.GetDefaultQualityLevel();
             // QualityLevelType defaultQuality = QualityLevelType.Fastest;
             int qualityLevel = GameEntry.Setting.GetInt(Constant.Setting.QualityLevel, (int)defaultQuality);

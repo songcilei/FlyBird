@@ -87,7 +87,7 @@ namespace FlyBrid
                     ChangeState<ProcedureMenu>(procedureOwner);
                     break;
                 case 2:
-                    ChangeState<ProcedureMenu>(procedureOwner);
+                    ChangeState<ProcedureMain>(procedureOwner);
                     break;
                 
                 default:

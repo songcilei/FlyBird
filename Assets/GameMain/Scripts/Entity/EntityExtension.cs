@@ -83,6 +83,41 @@ namespace FlyBrid
         //{
         //    entityComponent.ShowEntity(typeof(Aircraft), "Aircraft", data);
         //}
+        
+        /// <summary>
+        /// 显示背景实体
+        /// </summary>
+        public static void ShowBg(this EntityComponent entityComponent, EntityData data)
+        {
+            entityComponent.ShowEntity(typeof(Bg),"Bg",data);
+        }
+        /// <summary>
+        /// 显示管道实体
+        /// </summary>
+        public static void ShowPipe(this EntityComponent entityComponent, PipeData data)
+        {
+            entityComponent.ShowEntity(typeof(Pipe), "Pipe", data);
+        }
+
+        /// <summary>
+        /// 显示子弹
+        /// </summary>
+        /// <param name="entityComponent"></param>
+        /// <param name="data"></param>
+        public static void ShowBullet(this EntityComponent entityComponent,BulletData data)
+        {
+            entityComponent.ShowEntity(typeof(Bullet),"Bullet",data);
+        }
+
+        /// <summary>s
+        /// 显示小鸟
+        /// </summary>
+        public static void ShowBird(this EntityComponent entityComponent,BirdData data)
+        {
+            entityComponent.ShowEntity(typeof(Bird),"Bird",data);
+
+        }
+        
 
         public static int GenerateSerialId(this EntityComponent entityComponent)
         {
