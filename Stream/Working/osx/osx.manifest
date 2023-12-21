@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 3684282792
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: animation
+      Dependencies:
+        Dependency_0: textures
+    Info_1:
+      Name: config
+      Dependencies: {}
+    Info_2:
+      Name: datatables
+      Dependencies: {}
+    Info_3:
+      Name: entities
+      Dependencies:
+        Dependency_0: animation
+        Dependency_1: textures
+        Dependency_2: ui
+    Info_4:
+      Name: localization
+      Dependencies: {}
+    Info_5:
+      Name: music
+      Dependencies: {}
+    Info_6:
+      Name: scene
+      Dependencies:
+        Dependency_0: config
+        Dependency_1: entities
+        Dependency_2: ui
+    Info_7:
+      Name: sounds
+      Dependencies: {}
+    Info_8:
+      Name: textures
+      Dependencies: {}
+    Info_9:
+      Name: ui
+      Dependencies: {}

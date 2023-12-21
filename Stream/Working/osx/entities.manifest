@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 973393607
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8c5bd5aa2ece9334f0a69fcff3f450c9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 365dcc8e838aaaf8882ce0ad6b248685
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 58
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Entities/Bird.prefab
+- Assets/GameMain/Entities/Pipe.prefab
+- Assets/GameMain/Entities/Bg.prefab
+- Assets/GameMain/Entities/Bullet.prefab
+Dependencies:
+- /Users/mac/zhangzihao/UnityProject/FlyBird/Stream/Working/osx/animation
+- /Users/mac/zhangzihao/UnityProject/FlyBird/Stream/Working/osx/textures
+- /Users/mac/zhangzihao/UnityProject/FlyBird/Stream/Working/osx/ui

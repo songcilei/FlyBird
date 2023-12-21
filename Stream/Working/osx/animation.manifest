@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 553997765
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 35398254212b46eb08c19633d66d086e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 79bfbbfb45a737124c4c276d36f44713
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Animation/bird_0.controller
+- Assets/GameMain/Animation/fly.anim
+Dependencies:
+- /Users/mac/zhangzihao/UnityProject/FlyBird/Stream/Working/osx/textures

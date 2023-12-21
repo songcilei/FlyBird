@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 146367734
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 913d6b3cc7976c84c3a4e7f09fef8a4b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: be3a1569287794ad7b5a03b8ff71a7ef
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 12001, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0ec96ebfd1aca344e9879e2c4d03fd1f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: FlyBrid.DeviceModel
+- AssemblyName: UnityEngine.IMGUIModule
+  ClassName: UnityEngine.GUISettings
+- AssemblyName: UnityEngine.IMGUIModule
+  ClassName: UnityEngine.GUIStyle
+Assets:
+- Assets/GameMain/Configs/DebuggerSkin.guiskin
+- Assets/GameMain/Configs/DefaultDictionary.xml
+- Assets/GameMain/Configs/BuildSettings.xml
+- Assets/GameMain/Configs/DeviceModelConfig.asset
+- Assets/GameMain/Configs/AssetBundleEditor.xml
+- Assets/GameMain/Configs/BuildInfo.txt
+- Assets/GameMain/Configs/DefaultConfig.txt
+Dependencies: []

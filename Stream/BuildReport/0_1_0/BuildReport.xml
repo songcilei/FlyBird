@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <BuildReport>
+    <Summary>
+      <ProductName>FlyBrid</ProductName>
+      <CompanyName>DefaultCompany</CompanyName>
+      <GameIdentifier>com.DefaultCompany.FlyBrid</GameIdentifier>
+      <ApplicableGameVersion>0.1</ApplicableGameVersion>
+      <InternalResourceVersion>0</InternalResourceVersion>
+      <UnityVersion>2021.3.32f1c1</UnityVersion>
+      <WindowsSelected>False</WindowsSelected>
+      <MacOSXSelected>True</MacOSXSelected>
+      <IOSSelected>False</IOSSelected>
+      <AndroidSelected>False</AndroidSelected>
+      <WindowsStoreSelected>False</WindowsStoreSelected>
+      <ZipSelected>True</ZipSelected>
+      <RecordScatteredDependencyAssetsSelected>False</RecordScatteredDependencyAssetsSelected>
+      <BuildAssetBundleOptions>272</BuildAssetBundleOptions>
+    </Summary>
+    <AssetBundles Count="9">
+      <AssetBundle Name="animation" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="02f3393d648794f15a74aeb4f78eb893" Name="Assets/GameMain/Animation/bird_0.controller" Length="2026" HashCode="-2109936247">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Animation/fly.anim" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="909ce23a7a63a43d5a8b287934edbf58" Name="Assets/GameMain/Animation/fly.anim" Length="2054" HashCode="472074707">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/bird.png" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <StandaloneOSX Length="9365" HashCode="-561501390" ZipLength="7026" ZipHashCode="955416239" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="config" LoadType="0" Packed="True">
+        <Assets Count="7">
+          <Asset Guid="125b37c134faa4f42a9edc9df709f078" Name="Assets/GameMain/Configs/BuildSettings.xml" Length="307" HashCode="-2108348806" />
+          <Asset Guid="72a25bac5b240804d856fe49a449d375" Name="Assets/GameMain/Configs/BuildInfo.txt" Length="790" HashCode="605110527" />
+          <Asset Guid="72de6f1ec750c294c92f5712abff1cdb" Name="Assets/GameMain/Configs/AssetBundleEditor.xml" Length="833" HashCode="-1873774893" />
+          <Asset Guid="7f6cc2db01a4419469a3d56b7d21f621" Name="Assets/GameMain/Configs/DebuggerSkin.guiskin" Length="36746" HashCode="-844508082" />
+          <Asset Guid="c50012f79cd3f8844a45eef7bd66d58d" Name="Assets/GameMain/Configs/DefaultConfig.txt" Length="107" HashCode="-500125475" />
+          <Asset Guid="c725b4063cfcfb244b5f729639e8c8b9" Name="Assets/GameMain/Configs/DefaultDictionary.xml" Length="1135" HashCode="-617734316" />
+          <Asset Guid="c95834d0507391d498e00480eac6a985" Name="Assets/GameMain/Configs/DeviceModelConfig.asset" Length="495" HashCode="1352749035" />
+        </Assets>
+        <Codes>
+          <StandaloneOSX Length="18071" HashCode="2021967284" ZipLength="8478" ZipHashCode="-1887254382" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="datatables" LoadType="0" Packed="True">
+        <Assets Count="6">
+          <Asset Guid="36029cc8c02c43c4e96db70e5e88250a" Name="Assets/GameMain/DataTables/UIForm.txt" Length="444" HashCode="-121477473" />
+          <Asset Guid="546e2733144f0c840b96f13f68f739e4" Name="Assets/GameMain/DataTables/Music.txt" Length="160" HashCode="-879280018" />
+          <Asset Guid="96c001f5f5b854d45b6e2367abbc5433" Name="Assets/GameMain/DataTables/Sound.txt" Length="458" HashCode="264062690" />
+          <Asset Guid="9d81433c0a3ec3c48b9c9dfe18bc14fe" Name="Assets/GameMain/DataTables/Scene.txt" Length="202" HashCode="-877776436" />
+          <Asset Guid="bbe2caeb7d1de7d4cbf65a2d7007759a" Name="Assets/GameMain/DataTables/Entity.txt" Length="177" HashCode="-1819192422" />
+          <Asset Guid="f76e3b650bbdc45478114df1c26feabe" Name="Assets/GameMain/DataTables/UISound.txt" Length="226" HashCode="2042300729" />
+        </Assets>
+        <Codes>
+          <StandaloneOSX Length="2334" HashCode="1952572262" ZipLength="2031" ZipHashCode="2082023866" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="entities" LoadType="0" Packed="True">
+        <Assets Count="4">
+          <Asset Guid="3565c93350470451ab5720841c315baa" Name="Assets/GameMain/Entities/Bullet.prefab" Length="3431" HashCode="-1255135720" />
+          <Asset Guid="702346d9264f94e63bd31c926f753159" Name="Assets/GameMain/Entities/Pipe.prefab" Length="7055" HashCode="-877975432">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/pipe.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="af897746264304522a5040aebf11f629" Name="Assets/GameMain/Entities/Bird.prefab" Length="4027" HashCode="-10584516">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Animation/bird_0.controller" />
+              <DependencyAsset Name="Assets/GameMain/Textures/bird.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="deee98fd2833643e298237142d047685" Name="Assets/GameMain/Entities/Bg.prefab" Length="16541" HashCode="-1815780836">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/back.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/bg.jpg" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <StandaloneOSX Length="6950" HashCode="-1329915199" ZipLength="5819" ZipHashCode="-603295182" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="localization" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="77cbb7c5404c10242ab59953e0746314" Name="Assets/GameMain/Localization/ChineseSimplified/Fonts/MainFont.ttf" Length="7070444" HashCode="-1495042615">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Localization/ChineseSimplified/Fonts/MainFont.ttf" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="9be2e1e45f4edd74c8764538ad306b78" Name="Assets/GameMain/Localization/ChineseSimplified/Dictionaries/Default.xml" Length="170" HashCode="-201971601" />
+        </Assets>
+        <Codes>
+          <StandaloneOSX Length="9253408" HashCode="176110070" ZipLength="8102015" ZipHashCode="-802925585" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="music" LoadType="0" Packed="True">
+        <Assets Count="2">
+          <Asset Guid="0f56e6332e613407da607674e35c9099" Name="Assets/GameMain/Music/Menu.mp3" Length="2399112" HashCode="-573272730" />
+          <Asset Guid="78f4efaef2f014b81820116765fd5b9a" Name="Assets/GameMain/Music/Main.mp3" Length="14438954" HashCode="625875635" />
+        </Assets>
+        <Codes>
+          <StandaloneOSX Length="4276314" HashCode="-1315987751" ZipLength="4265072" ZipHashCode="1406317644" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="sounds" LoadType="0" Packed="True">
+        <Assets Count="3">
+          <Asset Guid="022e9ab1c20fc4d2d8616c4387932d3a" Name="Assets/GameMain/Sounds/Dead.wav" Length="18942" HashCode="678543961" />
+          <Asset Guid="0e2a73e804fa64df986f492689871b48" Name="Assets/GameMain/Sounds/Fly.wav" Length="7728" HashCode="1777580317" />
+          <Asset Guid="cd790abbee9e440029aa38c993fae39f" Name="Assets/GameMain/Sounds/Hurt.wav" Length="13697" HashCode="-383946334" />
+        </Assets>
+        <Codes>
+          <StandaloneOSX Length="24238" HashCode="-2054198919" ZipLength="24033" ZipHashCode="-2141577118" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="textures" LoadType="0" Packed="True">
+        <Assets Count="3">
+          <Asset Guid="192de98fdbb6443b38a94739c02be280" Name="Assets/GameMain/Textures/back.png" Length="13407" HashCode="1910173704" />
+          <Asset Guid="56ecbea76d5814a6da4efd2398bb2db5" Name="Assets/GameMain/Textures/bird.png" Length="12443" HashCode="567228321" />
+          <Asset Guid="c3a432f8112c3432295c6302023baddb" Name="Assets/GameMain/Textures/pipe.png" Length="13607" HashCode="584605791" />
+        </Assets>
+        <Codes>
+          <StandaloneOSX Length="45481" HashCode="-1887945107" ZipLength="34086" ZipHashCode="-903983620" />
+        </Codes>
+      </AssetBundle>
+      <AssetBundle Name="ui" LoadType="0" Packed="True">
+        <Assets Count="8">
+          <Asset Guid="05bef61a33bb042ac97fb8d84ee9fb1f" Name="Assets/GameMain/UI/UIForms/MenuForm.prefab" Length="35058" HashCode="579029857">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/bg.jpg" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/main.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="080b3fab680844537b9160ef79abebdc" Name="Assets/GameMain/UI/UISounds/Click.wav" Length="13235" HashCode="992381744" />
+          <Asset Guid="1a7c1568d556d424783b0fa7b5dc87b3" Name="Assets/GameMain/UI/UIForms/ScoreForm.prefab" Length="7397" HashCode="-289193061" />
+          <Asset Guid="3595f271c73dc455e906e72152d8555e" Name="Assets/GameMain/UI/UIForms/GameOverForm.prefab" Length="17671" HashCode="1449798270">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/gameover.png" />
+            </DependencyAssets>
+          </Asset>
+          <Asset Guid="3a9b768d28a284e6fae741de40cb3cd8" Name="Assets/GameMain/UI/UISprites/bg.jpg" Length="49954" HashCode="-1621336076" />
+          <Asset Guid="3e2c57d1cef4148da8cfc0b1890aec65" Name="Assets/GameMain/UI/UISprites/gameover.png" Length="12794" HashCode="141727147" />
+          <Asset Guid="8fb7d59e9655d435f9efdc6491f1c906" Name="Assets/GameMain/UI/UIForms/SettingForm.prefab" Length="39916" HashCode="207709722" />
+          <Asset Guid="d4ac7ba7d12a24bf283c2bf112e6781a" Name="Assets/GameMain/UI/UISprites/main.png" Length="27935" HashCode="-1165197300" />
+        </Assets>
+        <Codes>
+          <StandaloneOSX Length="139791" HashCode="-1693285925" ZipLength="121182" ZipHashCode="-1328256216" />
+        </Codes>
+      </AssetBundle>
+    </AssetBundles>
+  </BuildReport>
+</UnityGameFramework>
